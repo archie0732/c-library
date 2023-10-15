@@ -5,7 +5,7 @@
 >**array**
 > >1. stack (not found)
 > >2. queue (not found)
-> >3. vector
+> >3. [vector](https://github.com/archie0732/c-library/blob/main/array/vector/README.md)
 > >
 >**Pointer**
 > >1. auto
