@@ -2,6 +2,12 @@
 ***
 **目前資料量不夠，故有些奇怪(錯誤的分類)，還請見諒  
 ***
+## vscode 設定環境變數教學
+~~如果你照者老師的方法來建制環境那就會錯摟~~
+* error提示寫：.....`not building ....exe `參照此文：  
+  [點我進入](https://hackmd.io/Ui1zThJ8RsyKKWaZaHbh0Q?both)
+## 內文  
+
 >**array**
 > >1. stack (not found)
 > >2. queue (not found)
