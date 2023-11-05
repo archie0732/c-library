@@ -1,4 +1,4 @@
-# function library
+# programming library
 ***
 **目前資料量不夠，故有些奇怪(錯誤的分類)，還請見諒  
 ***
