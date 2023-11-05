@@ -10,7 +10,7 @@
 
 ### 涵式
 >**array**
-> >1. [array]() 
+> >1. [array](https://github.com/archie0732/c-library/blob/main/array/array.md) (製作中)
 > >1. stack (not found)
 > >2. queue (not found)
 > >3. [vector](https://github.com/archie0732/c-library/blob/main/array/vector/README.md)
