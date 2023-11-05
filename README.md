@@ -39,4 +39,4 @@
 > > 2. INT_MAX
 > > 3. class
 ### 常用解題技巧
-1. [拆分數字]()
+1. [拆分數字](https://github.com/archie0732/c-library/blob/main/slove/separation-integer.md)
