@@ -4,8 +4,8 @@
 ***
 ## vscode 設定環境變數教學
 ~~如果你照者老師的方法來建制環境那就會錯摟~~
-* error提示寫：.....`not building ....exe `參照此文：  
-  [點我進入](https://hackmd.io/Ui1zThJ8RsyKKWaZaHbh0Q?view)
+![](https://github.com/archie0732/c-library/blob/main/picture/7910c5fbe1179a6b0f861f17088a2ab1.png)   
+  [有此問題 ==>點我進入](https://hackmd.io/Ui1zThJ8RsyKKWaZaHbh0Q?view)
 ## 內文  
 
 >**array**
