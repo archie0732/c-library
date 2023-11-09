@@ -42,5 +42,8 @@
 * 基礎  
   1. [拆分數字](https://github.com/archie0732/c-library/blob/main/slove/separation-integer.md)
 * 進階  
-  1. [動態規劃 (Dynamic Programming)]()
+  1. [動態規劃 (Dynamic Programming)](https://github.com/archie0732/c-library/blob/main/algorithm/Dynamic%20Programming.md)
+  2. [平衡數]()
+  3. [二分搜尋法 binary search]()
+  4. 
   
