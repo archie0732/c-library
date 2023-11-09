@@ -42,5 +42,5 @@
 * 基礎  
   1. [拆分數字](https://github.com/archie0732/c-library/blob/main/slove/separation-integer.md)
 * 進階  
-  1. [動態規劃]()
+  1. [動態規劃 (Dynamic Programming)]()
   
