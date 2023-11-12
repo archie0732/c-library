@@ -2,7 +2,7 @@
 **題外話**  
 建議先學習完以下後再進入  
 函式:  
-1. [arry](https://github.com/archie0732/c-library/blob/main/array/array.md)
+1. [array](https://github.com/archie0732/c-library/blob/main/array/array.md)
 2. [vector](https://github.com/archie0732/c-library/blob/main/array/vector/README.md)
 
 與以下演算法:
@@ -11,9 +11,9 @@
 3. 快速搜尋法 quick sort
 
 ***
-## 用法1(升冪排序)
+## 基本用法1(升冪排序)
 ```cpp
-sort (arry.begin,arry.end);
+sort (begin,end);
 ```
 需要包含以下標頭檔
 ```cpp
@@ -46,7 +46,7 @@ int main()
 0 1 2 3 5 6 7 8 9 10
 ```
 ***
-## 用法2(降冪排序)
+## 基本用法2(降冪排序)
 ```cpp
 sort(begin, end, greater<Type>());
 ```
@@ -103,3 +103,102 @@ int main()
 ```
 0 1 2 3 5 6 7 8 9 10
 ```
+## 排列字串(按照ASCII)
+```cpp
+sort(begin,end,less<char>());
+```
+同降冪，在第三個參數加上```less<char>()```  
+範例:
+排序a[a,c,d,f,b]  
+```cpp
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    char a[5] = {'a', 'c', 'd', 'f', 'b'};
+    sort(a, a + 5, less<char>());
+
+    for (int i = 0; i < 5; i++)
+        cout << a[i] << " ";
+    return 0;
+}
+```
+輸出範例:
+```
+a b c d f
+```
+
+## sort struct
+* 建議先學習
+  1. [struct]()
+  2. [bool](https://www.delftstack.com/zh-tw/howto/cpp/boolean-function-cpp/) 
+
+條件:
+1. 有 struct
+2. 有 bool  回傳降序的方式
+
+```cpp
+sort(begin,end,bool 回傳降序的方式)
+```
+
+EX: 
+
+```cpp
+#include <iostream>
+#include <algorithm>
+#include <string>
+
+using namespace std;
+
+struct student { //建立struct(name: student)
+    string name;
+    int score;	
+};
+
+bool mycompare(student s1, student s2){ //bool 判斷條件
+   return s1.score > s2.score;
+}
+
+int main() {
+    student st[4]; // 建立資料
+    st[0].name = "bob";
+    st[0].score = 70;
+    st[1].name = "cindy";
+    st[1].score = 66;
+    st[2].name = "archie";
+    st[2].score = 80;
+    st[3].name = "alice";
+    st[3].score = 76;
+    
+    sort(st, st+4, mycompare);//排序(依照條件式)
+
+    for (student s : st)  // 用指標輸出
+        cout << s.name << " " << s.score << endl;
+
+    return 0;
+}
+```
+範例輸出:
+```
+archie 80
+alice 76
+bob 70
+cindy 66
+```
+## 其他&補充
+1. 排序陣列的某部份
+   >例如只想排序陣列的前五項:  
+   >```sort(arry,arry+5);```
+
+2. 自動找長度
+   覺得要算長度很麻煩，可以參考以下:
+```cpp
+int array[] = {4, 5, 8, 3, 7, 1, 2, 6, 10, 9};
+int len = sizeof(array) / sizeof(int);
+std::sort(array, array + len);
+```
+3. [X] 冷知識 c++ 的 `sort` 較 c 中的 `qsort` **速度更快**
