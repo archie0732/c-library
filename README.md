@@ -46,6 +46,7 @@
   1. [動態規劃 (Dynamic Programming)](https://github.com/archie0732/c-library/blob/main/algorithm/Dynamic%20Programming.md)
   2. [平衡數]()
   3. [二分搜尋法 binary search]()
+  4. 雜湊演算法  
  
 * 經典題目
   1. [0/1背包]()
