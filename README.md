@@ -33,7 +33,8 @@
 > > > td::stold
 > > >
 > >5. map
-> >   
+> >6. sort
+> >    
 >**other**
 > > 1. #defind
 > > 2. INT_MAX
