@@ -9,12 +9,13 @@
 ## 內文 
 
 ### 涵式
->**array**
+>**資料結構**
 > >1. [array](https://mycollegenotebook.medium.com/c%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98-%E9%99%A3%E5%88%97-array-99c459bb114d)
 > >1. stack (not found)
 > >2. queue (not found)
 > >3. [vector](https://github.com/archie0732/c-library/blob/main/array/vector/README.md)
-> >
+> >4. [struct]()  
+> >     
 >**Pointer**
 > >1. auto
 > >
