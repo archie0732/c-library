@@ -1,4 +1,6 @@
-# sort
+# sort (長篇)
+
+#### 作者: 神里綾華的狗
 **題外話**  
 建議先學習完以下後再進入  
 函式:  
@@ -9,7 +11,12 @@
 1. 二元搜尋法 binary sort
 2. 泡沫搜尋法 Bubble Sort
 3. 快速搜尋法 quick sort
-
+***
+* **overview**  
+  2023/11/12 剛月中就沒錢了，~~該死的白朮專武~~   
+  **sort是一種排序陣列的函式**(可以升列、降列或你喜歡的方式)   
+  但老實說sort在現在寫題目基本用不到，因為會打亂`原來`陣列順序  
+  不過在某些時後卻有奇效
 ***
 ## 基本用法1(升冪排序)
 ```cpp
@@ -137,6 +144,8 @@ a b c d f
   1. [struct]()
   2. [bool](https://www.delftstack.com/zh-tw/howto/cpp/boolean-function-cpp/) 
 
+***
+
 條件:
 1. 有 struct
 2. 有 bool  回傳降序的方式
@@ -189,11 +198,12 @@ alice 76
 bob 70
 cindy 66
 ```
+***
 ## 其他&補充
 1. 排序陣列的某部份
    >例如只想排序陣列的前五項:  
    >```sort(arry,arry+5);```
-
+***
 2. 自動找長度
    覺得要算長度很麻煩，可以參考以下:
 ```cpp
@@ -201,4 +211,5 @@ int array[] = {4, 5, 8, 3, 7, 1, 2, 6, 10, 9};
 int len = sizeof(array) / sizeof(int);
 std::sort(array, array + len);
 ```
+***
 3. [X] 冷知識 c++ 的 `sort` 較 c 中的 `qsort` **速度更快**
