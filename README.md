@@ -34,7 +34,7 @@
 > > > td::stold
 > > >
 > >5. map
-> >6. sort
+> >6. [sort](https://github.com/archie0732/c-library/blob/main/std%3A%3A/sort.md)
 > >    
 >**other**
 > > 1. #defind
