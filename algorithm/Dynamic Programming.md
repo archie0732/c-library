@@ -20,7 +20,7 @@
 
 ---
 
-以[費布納西數列](https://zh.wikipedia.org/wiki/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0)舉例:
+以[費式數列](https://zh.wikipedia.org/wiki/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0)舉例:
 
 ![](https://github.com/archie0732/c-library/blob/main/picture/20140592ecvY7JHRxJ.png)
 
@@ -49,7 +49,7 @@
 
 ---
 ## 常用於問題:
-1. [費布納西數列](https://zh.wikipedia.org/wiki/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0)
+1. [費式數列](https://zh.wikipedia.org/wiki/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0)
 2. [平衡樹]()
 3. [背包問題]()
 
@@ -121,7 +121,7 @@ int main(int argc, char const *argv[])
 
 ### 關於空間複雜度與時間複雜度
 
-* 在經典問題**費布納西數列**中   
+* 在經典問題**費式數列**中   
 
 分別表示使用`動態規劃`與`樸素解法`(暴力解)的空間複雜度   
 |      |空間複雜度|時間複雜度|
