@@ -47,7 +47,7 @@
   4. [快速排序 quick sort]
 * 進階  
   1. [動態規劃 (Dynamic Programming)](https://github.com/archie0732/c-library/blob/main/algorithm/Dynamic%20Programming.md)  
-     >[LCS Longest Common Subsequence ]()
+     >[LCS Longest Common Subsequence ](https://github.com/archie0732/c-library/blob/main/algorithm/dp/LCS.md)
   3. [平衡數]
   5. 雜湊演算法
   
