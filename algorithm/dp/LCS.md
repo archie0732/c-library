@@ -4,7 +4,7 @@
 
 LCS 式DP裡最重要也是最核心的思想，題目與變化題有很多，也可以在[LeetCode](https://leetcode.com/problemset/)上寫變化題，這裡先講最簡單的基本法
 
-**請先確定已經了解[動態規劃](https://github.com/archie0732/c-library/blob/main/algorithm/Dynamic%20Programming.md)的精神與核心再看此文喔!
+**請先確定已經了解[動態規劃](https://github.com/archie0732/c-library/blob/main/algorithm/Dynamic%20Programming.md)的精神與核心再看此文喔!**
 
 
 ***
