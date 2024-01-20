@@ -8,7 +8,7 @@
   [有此問題 ==>點我進入](https://hackmd.io/Ui1zThJ8RsyKKWaZaHbh0Q?view)
 ## 內文 
 
-### 涵式
+### 方法 / 涵式
 >**資料結構**
 > >1. [array](https://mycollegenotebook.medium.com/c%E8%AA%9E%E8%A8%80%E7%AD%86%E8%A8%98-%E9%99%A3%E5%88%97-array-99c459bb114d)
 > >1. stack (not found)
@@ -43,11 +43,12 @@
 ### 常用解題技巧
 * 基礎  
   1. [拆分數字](https://github.com/archie0732/c-library/blob/main/slove/separation-integer.md)
+  2. [二分搜尋法 binary search]
+  4. [快速排序 quick sort]
 * 進階  
   1. [動態規劃 (Dynamic Programming)](https://github.com/archie0732/c-library/blob/main/algorithm/Dynamic%20Programming.md)
-  2. [平衡數]
-  3. [二分搜尋法 binary search]
-  4. [快速排序 quick sort]
+   >[LCS Longest Common Subsequence ]()
+  3. [平衡數]
   5. 雜湊演算法
   
  
